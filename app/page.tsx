@@ -54,7 +54,7 @@ function DemoMeetingTab(props: { label: string }) {
   };
   return (
     <div className={styles.tabContent}>
-      <p style={{ margin: 0 }}>Try LiveKit Meet for free with our live demo project.</p>
+      <p style={{ margin: 0 }}>Leave all doubts in a mental locker before your booking.</p>
       <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
         Start Meeting
       </button>
@@ -106,7 +106,7 @@ function CustomConnectionTab(props: { label: string }) {
   return (
     <form className={styles.tabContent} onSubmit={onSubmit}>
       <p style={{ marginTop: 0 }}>
-        Connect LiveKit Meet with a custom server using LiveKit Cloud or LiveKit Server.
+        Connect AuraLink with a custom event using HealXYZ Cloud or HealXYZ Server.
       </p>
       <input
         id="serverUrl"
@@ -167,32 +167,26 @@ export default function Page() {
         <div className="header">
           <img src="/images/livekit-meet-home.svg" alt="LiveKit Meet" width="360" height="45" />
           <h2>
-            Open source video conferencing app built on{' '}
-            <a href="https://github.com/livekit/components-js?ref=meet" rel="noopener">
-              LiveKit&nbsp;Components
-            </a>
-            ,{' '}
-            <a href="https://livekit.io/cloud?ref=meet" rel="noopener">
-              LiveKit&nbsp;Cloud
-            </a>{' '}
-            and Next.js.
+            Spiritual livestream video conferencing{' '}
+            <a href="https://healxyz.com" rel="noopener"></a>
+            HealXYZ.com</a> app made by the Wizard of Hahz.
           </h2>
         </div>
         <Suspense fallback="Loading">
           <Tabs>
-            <DemoMeetingTab label="Demo" />
+            <DemoMeetingTab label="Booking" />
             <CustomConnectionTab label="Custom" />
           </Tabs>
         </Suspense>
       </main>
       <footer data-lk-theme="default">
-        Hosted on{' '}
-        <a href="https://livekit.io/cloud?ref=meet" rel="noopener">
-          LiveKit Cloud
+        Book an {' '}
+        <a href="https://healxyz.com" rel="noopener">
+        AuraLink Call
         </a>
-        . Source code on{' '}
-        <a href="https://github.com/livekit/meet?ref=meet" rel="noopener">
-          GitHub
+        . Follow our{' '}
+        <a href="https://tiktok.com/@healxyz" rel="noopener">
+          TikTok
         </a>
         .
       </footer>
