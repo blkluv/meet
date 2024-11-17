@@ -168,8 +168,10 @@ export default function Page() {
           <img src="/images/livekit-meet-home.svg" alt="LiveKit Meet" width="360" height="45" />
           <h2>
             Spiritual livestream video conferencing{' '}
-            <a href="https://healxyz.com" rel="noopener"></a>
-            HealXYZ.com</a> app made by the Wizard of Hahz.
+            <a href="https://healxyz.com" rel="noopener">
+              HealXYZ.com
+            </a>{' '}
+            app made by the Wizard of Hahz.
           </h2>
         </div>
         <Suspense fallback="Loading">
@@ -180,9 +182,9 @@ export default function Page() {
         </Suspense>
       </main>
       <footer data-lk-theme="default">
-        Book an {' '}
+        Book an{' '}
         <a href="https://healxyz.com" rel="noopener">
-        AuraLink Call
+          AuraLink Call
         </a>
         . Follow our{' '}
         <a href="https://tiktok.com/@healxyz" rel="noopener">
