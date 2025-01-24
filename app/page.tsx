@@ -54,9 +54,9 @@ function DemoMeetingTab(props: { label: string }) {
   };
   return (
     <div className={styles.tabContent}>
-      <p style={{ margin: 0 }}>Leave all doubts in a mental locker before your booking.</p>
+      <p style={{ margin: 0 }}>Positive vibes only.</p>
       <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
-        Start Meeting
+        Start Space
       </button>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
         <div style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
@@ -167,30 +167,31 @@ export default function Page() {
         <div className="header">
           <img src="/images/livekit-meet-home.svg" alt="LiveKit Meet" width="360" height="45" />
           <h2>
-            Spiritual livestream video conferencing{' '}
-            <a href="https://healxyz.com" rel="noopener">
-              HealXYZ.com
-            </a>{' '}
-            app made by the Wizard of Hahz.
-          </h2>
+            Experience NFTV livestream events powered by{' '}
+            <a href="https://fun.luvnft.com" rel="noopener">
+            LUV NFT FUN
+             </a>{' '}
+            🅰️DS that act as keys to open closed door events.
+         </h2>
         </div>
         <Suspense fallback="Loading">
           <Tabs>
-            <DemoMeetingTab label="Booking" />
-            <CustomConnectionTab label="Custom" />
+            <DemoMeetingTab label="Create 🚪" />
+            <CustomConnectionTab label="VIP 🚪" />
           </Tabs>
         </Suspense>
       </main>
       <footer data-lk-theme="default">
-        Book an{' '}
-        <a href="https://healxyz.com" rel="noopener">
-          AuraLink Call
+        1️⃣ Sub{' '}
+        <a href="https://sub.luvnft.com" rel="noopener">
+          Subscribe
         </a>
-        . Follow our{' '}
-        <a href="https://tiktok.com/@healxyz" rel="noopener">
-          TikTok
+        2️⃣ Join {' '}
+        <a href="https://fun.luvnft.com" rel="noopener">
+          LUV NFT FUN 
         </a>
-        .
+        3️⃣ Join Live Events
+        </a>
       </footer>
     </>
   );
