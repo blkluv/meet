@@ -54,7 +54,7 @@ function DemoMeetingTab(props: { label: string }) {
   };
   return (
     <div className={styles.tabContent}>
-      <p style={{ margin: 0 }}>Promote your live shows on LUV NFT FUN social.</p>
+      <p style={{ margin: 0 }}>Promote your live shows on any Web5 socialz.</p>
       <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
         Start Show
       </button>
@@ -167,34 +167,29 @@ export default function Page() {
         <div className="header">
           <img src="/images/luv_nft_live.svg" alt="LUV NFT LIVE" width="360" height="45" />
           <h2>
-            Livestream social entertainment that pays creators 💯, royalties with no middleman fees.{' '}
-            <a href="https://sub.luvnft.com" rel="noopener">
-              Subscribe
-            </a> to create a PPV show event promo campaign,
-            {' '}
-            <a href="https://fun.luvnft.com" rel="noopener">
-              Sign Up
-            </a>{' '}
-            for social updates.
+            Think Netflix but live PPV streams where fans cop the best moments as NFTs 📈<br/>
+            Creators get paid direct – no platform taking cuts 🚫<br/>
+            <a href="https://hahz.live" rel="noopener" style={{color: '#ff0080', fontWeight: 'bold'}}>
+              Tap in for live alerts to room where it happens 🔔
+            </a>
           </h2>
         </div>
-        <Suspense fallback="Loading">
+        <Suspense fallback="Loading...">
           <Tabs>
-            <DemoMeetingTab label="Show" />
-            <CustomConnectionTab label="Custom" />
+            <DemoMeetingTab label="Live Now 🎥" />
+            <CustomConnectionTab label="Your Stream 💫" />
           </Tabs>
         </Suspense>
       </main>
       <footer data-lk-theme="default">
          Powered by{' '}
-        <a href="https://luvnft.com" rel="noopener">
-          LUV NFT  
+        <a href="https://luvnft.com" rel="noopener" style={{color: '#00ff88'}}>
+          LUV NFT ⚡
         </a>
-         and the social{' '}
-        <a href="https://fun.luvnft.com" rel="noopener">
-          LUV NFT FUN
+         & {' '}
+        <a href="https://hahz.live" rel="noopener" style={{color: '#ff0080'}}>
+          HAHZ.LIVE 🔥
         </a>
-        .
       </footer>
     </>
   );
