@@ -54,7 +54,7 @@ function DemoMeetingTab(props: { label: string }) {
   };
   return (
     <div className={styles.tabContent}>
-      <p style={{ margin: 0 }}>Promote your live shows on any Web5 socialz.</p>
+      <p style={{ margin: 0 }}>Promote your livestream on ATL5D TikTok.</p>
       <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
         Start Show
       </button>
