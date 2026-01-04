@@ -5,11 +5,11 @@ import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'LUV NFT FUN | Livestream social entertainment',
+    default: 'ATL5D Orange | Livestream social entertainment',
     template: '%s',
   },
   description:
-    'LUV NFT FUN is the first Livestream social entertainment network that pays creators 100%.',
+    'ATL5D is the first Livestream social entertainment network for creators and businesses.',
   twitter: {
     creator: '@wizardofhahz',
     site: '@luvnft',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         type: 'image/png',
       },
     ],
-    siteName: 'LUV NFT LIVE',
+    siteName: 'ATL5D Orange',
   },
   icons: {
     icon: {
