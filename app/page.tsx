@@ -167,8 +167,8 @@ export default function Page() {
         <div className="header">
           <img src="/images/luv_nft_live.svg" alt="LUV NFT LIVE" width="360" height="45" />
           <h2>
-            Think Netflix but live PPV streams where fans cop the best moments as NFTs 📈<br/>
-            Creators get paid direct – no platform taking cuts 🚫<br/>
+            ATL5D Orange is a PPV reality show for creators and businesses.
+            Fans and customers can tip directly in the chat – no platform taking cuts 🚫<br/>
             <a href="https://hahz.live" rel="noopener" style={{color: '#ff0080', fontWeight: 'bold'}}>
               Tap in for live alerts to room where it happens 🔔
             </a>
@@ -183,12 +183,12 @@ export default function Page() {
       </main>
       <footer data-lk-theme="default">
          Powered by{' '}
-        <a href="https://luvnft.com" rel="noopener" style={{color: '#00ff88'}}>
-          LUV NFT ⚡
+        <a href="https://atl5d.com" rel="noopener" style={{color: '#00ff88'}}>
+          ATL5D ⚡
         </a>
          & {' '}
-        <a href="https://hahz.live" rel="noopener" style={{color: '#ff0080'}}>
-          HAHZ.LIVE 🔥
+        <a href="https://tree.atl5d.com" rel="noopener" style={{color: '#ff0080'}}>
+          BOOKINGS 🔥
         </a>
       </footer>
     </>
