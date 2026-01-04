@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'ATL5D is the first Livestream social entertainment network for creators and businesses.',
   twitter: {
     creator: '@wizardofhahz',
-    site: '@luvnft',
+    site: '@atl5d',
     card: 'summary_large_image',
   },
   openGraph: {
