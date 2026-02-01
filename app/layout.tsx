@@ -5,14 +5,14 @@ import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'ATL5D Orange | Livestream social entertainment',
+    default: 'HEALXYZ Orange | Livestream spiritual social entertainment',
     template: '%s',
   },
   description:
-    'ATL5D is the first Livestream social entertainment network for creators and businesses.',
+    'HEALXYZ is the first Livestream spiritual social platform for healing X,Y & Z. Join live shows, connect with creators, and experience transformative entertainment.',
   twitter: {
     creator: '@wizardofhahz',
-    site: '@atl5d',
+    site: '@healxyz',
     card: 'summary_large_image',
   },
   openGraph: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         type: 'image/png',
       },
     ],
-    siteName: 'ATL5D Orange',
+    siteName: 'HEALXYZ Orange',
   },
   icons: {
     icon: {

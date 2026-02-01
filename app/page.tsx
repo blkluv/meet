@@ -106,7 +106,7 @@ function CustomConnectionTab(props: { label: string }) {
   return (
     <form className={styles.tabContent} onSubmit={onSubmit}>
       <p style={{ marginTop: 0 }}>
-        Connect LUV NFT LIVE with a custom server using LUV NFT Cloud or LUV NFT Server.
+        Connect HEALXYZ LIVE with a custom server using HEALXYZ Cloud or HEALXYZ Server.
       </p>
       <input
         id="serverUrl"
@@ -165,12 +165,13 @@ export default function Page() {
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
-          <img src="/images/luv_nft_live.svg" alt="LUV NFT LIVE" width="360" height="45" />
+          <img src="/images/luv_nft_live.svg" alt="HEALXYZ LIVE" width="360" height="45" />
           <h2>
-            ATL5D Orange is a PPV reality show for creators and businesses.
-            Fans and customers can tip directly in the chat – no platform taking cuts 🚫<br/>
-            <a href="https://hahz.live" rel="noopener" style={{color: '#ff0080', fontWeight: 'bold'}}>
-              Tap in for live alerts to room where it happens 🔔
+            HealXYZ Orange is the first spiritual PPV livestream social
+            entertainment network for healing X,Y & Z hosted by The Wizard
+            of Hahz. <br/>
+            <a href="https://healxyz.com" rel="noopener" style={{color: '#ff0080', fontWeight: 'bold'}}>
+              Subscribe for live alerts to room where it happens 🔔
             </a>
           </h2>
         </div>
@@ -183,12 +184,8 @@ export default function Page() {
       </main>
       <footer data-lk-theme="default">
          Powered by{' '}
-        <a href="https://atl5d.com" rel="noopener" style={{color: '#00ff88'}}>
-          ATL5D ⚡
-        </a>
-         & {' '}
-        <a href="https://tree.atl5d.com" rel="noopener" style={{color: '#ff0080'}}>
-          BOOKINGS 🔥
+        <a href="https://healxyz.com" rel="noopener" style={{color: '#00ff88'}}>
+           ⚡ HEALXYZ
         </a>
       </footer>
     </>
