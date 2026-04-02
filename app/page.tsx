@@ -106,13 +106,13 @@ function CustomConnectionTab(props: { label: string }) {
   return (
     <form className={styles.tabContent} onSubmit={onSubmit}>
       <p style={{ marginTop: 0 }}>
-        Connect HEALXYZ LIVE with a custom server using HEALXYZ Cloud or HEALXYZ Server.
+        Connect Baddie.stream LIVE with a custom server using Baddie.stream Cloud.
       </p>
       <input
         id="serverUrl"
         name="serverUrl"
         type="url"
-        placeholder="LUV NFT Server URL: wss://*luvnft.cloud"
+        placeholder="Baddie.stream Server URL: wss://*baddie.stream"
         required
       />
       <textarea
