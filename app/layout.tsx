@@ -5,18 +5,18 @@ import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'HEALXYZ Orange | Livestream spiritual social entertainment',
+    default: 'Live | Livestream Shows',
     template: '%s',
   },
   description:
-    'HEALXYZ is the first Livestream spiritual social platform for healing X,Y & Z. Join live shows, connect with creators, and experience transformative entertainment.',
+    'Live.Baddie.stream is the Netflix-like platform for watching Baddie short shows scheduled as an live 1,5 or 10 minute event.',
   twitter: {
-    creator: '@wizardofhahz',
-    site: '@healxyz',
+    creator: '@baddiestream',
+    site: '@baddiestream',
     card: 'summary_large_image',
   },
   openGraph: {
-    url: 'https://meet.livekit.io',
+    url: 'https://live.baddie.stream',
     images: [
       {
         url: 'https://meet.livekit.io/images/livekit-meet-open-graph.png',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         type: 'image/png',
       },
     ],
-    siteName: 'HEALXYZ Orange',
+    siteName: 'Baddie.stream Live',
   },
   icons: {
     icon: {
