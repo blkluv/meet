@@ -54,7 +54,7 @@ function DemoMeetingTab(props: { label: string }) {
   };
   return (
     <div className={styles.tabContent}>
-      <p style={{ margin: 0 }}>PPV Spiritual Livestream on HEALXYZ Orange</p>
+      <p style={{ margin: 0 }}>PPV Livestream Shows</p>
       <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
         Start Show
       </button>
@@ -106,13 +106,13 @@ function CustomConnectionTab(props: { label: string }) {
   return (
     <form className={styles.tabContent} onSubmit={onSubmit}>
       <p style={{ marginTop: 0 }}>
-        Connect Baddie.stream LIVE with a custom server using Baddie.stream Cloud.
+        Connect HEALXYZ LIVE with a custom server using HEALXYZ Cloud or HEALXYZ Server.
       </p>
       <input
         id="serverUrl"
         name="serverUrl"
         type="url"
-        placeholder="Baddie.stream Server URL: wss://*baddie.stream"
+        placeholder="LUV NFT Server URL: wss://*luvnft.cloud"
         required
       />
       <textarea
@@ -165,7 +165,7 @@ export default function Page() {
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
-          <img src="/images/luv_nft_live.svg" alt="Baddie.stream Live" width="360" height="45" />
+          <img src="/images/baddie.stream.svg" alt="Baddie.stream Live" width="360" height="45" />
           <h2>
             Baddie.stream Live is the Netflix-like platform for watching
             short 1, 5 or 10 minute shows starring your fav Baddie.
