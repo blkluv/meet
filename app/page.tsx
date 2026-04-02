@@ -165,13 +165,13 @@ export default function Page() {
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
-          <img src="/images/luv_nft_live.svg" alt="HEALXYZ LIVE" width="360" height="45" />
+          <img src="/images/luv_nft_live.svg" alt="Baddie.stream Live" width="360" height="45" />
           <h2>
-            HealXYZ Orange is the first spiritual PPV livestream social
-            entertainment network for healing X,Y & Z hosted by The Wizard
-            of Hahz. <br/>
+            Baddie.stream Live is the Netflix-like platform for watching
+            short 1, 5 or 10 minute shows starring your fav Baddie.
+            <br/>
             <a href="https://healxyz.com" rel="noopener" style={{color: '#ff0080', fontWeight: 'bold'}}>
-              Subscribe for live alerts to room where it happens 🔔
+              💸 Tip so we can award the #1 Baddie of 2026
             </a>
           </h2>
         </div>
@@ -184,8 +184,8 @@ export default function Page() {
       </main>
       <footer data-lk-theme="default">
          Powered by{' '}
-        <a href="https://healxyz.com" rel="noopener" style={{color: '#00ff88'}}>
-           ⚡ HEALXYZ
+        <a href="https://baddie.stream" rel="noopener" style={{color: '#00ff88'}}>
+           😈 BADDIE.STREAM
         </a>
       </footer>
     </>
