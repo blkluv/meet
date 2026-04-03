@@ -167,8 +167,7 @@ export default function Page() {
         <div className="header">
           <img src="/images/baddie.stream.svg" alt="Baddie.stream Live" width="360" height="45" />
           <h2>
-            Baddie.stream Live is the Netflix-like platform for watching
-            short 1, 5 or 10 minute shows starring your fav Baddie.
+            🎬 Livestream shopping + on-demand shows. Hosted by your favorite baddie.
             <br/>
             <a href="https://healxyz.com" rel="noopener" style={{color: '#ff0080', fontWeight: 'bold'}}>
               💸 Tip so we can award the #1 Baddie of 2026
